@@ -1,0 +1,62 @@
+.clients-block {
+    width: 100%;
+    padding: 3rem 7.39583% 7rem;
+    background-color: var(--quaternary-color);
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+        padding-bottom: 4rem;
+    }
+
+    .title {
+        font-size: 3.8rem;
+        font-weight: 600;
+        line-height: 4.461rem;
+        color: var(--dark-color);
+        margin-bottom: 2.65rem;
+
+        @media (max-width: 1024px) {
+            font-size: 2.5rem;
+            line-height: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+        }
+    }
+
+    .carousel {
+        width: 100%;
+        margin-top: 3rem;
+        overflow: hidden;
+
+        .carousel-track {
+            display: flex;
+            width: max-content;
+            animation: scroll 20s linear infinite;
+
+            .item {
+                padding: 1rem 3rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    height: 10rem;
+                    width: auto;
+                }
+            }
+
+            @keyframes scroll {
+                0% {
+                    transform: translateX(0);
+                }
+
+                100% {
+                    transform: translateX(calc(-100% / 2));
+                }
+            }
+        }
+    }
+}

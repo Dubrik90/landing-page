@@ -1,0 +1,99 @@
+.floating-button {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .main-button {
+        background: var(--primary-color);
+        font-size: 1rem;
+        color: var(--tertiary-color);
+        font-weight: 700;
+        line-height: 1.1rem;
+        border: none;
+        padding: 16px 21px;
+        border-radius: 8px;
+        writing-mode: vertical-rl;
+        transform: rotate(360deg);
+        transition: all 0.3s ease-in-out;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .dropdown-wrapper {
+        background: transparent;
+        display: none;
+        padding-right: 10%;
+
+        .dropdown-menu {
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            background-color: #e9fce6;
+            border-radius: 5px;
+            flex-direction: column;
+            padding: 24px 13px 0;
+            z-index: 1;
+
+            .dropdown-item {
+                color: var(--tertiary-color);
+                font-size: 0.9rem;
+                font-weight: 500;
+                line-height: 1.0565rem;
+                background-color: transparent;
+                border: none;
+                margin-bottom: 24px;
+                border-radius: 8px;
+                margin-top: 5px;
+                transition: all 0.3s ease-in-out;
+                cursor: pointer;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+                text-wrap: nowrap;
+                width: 100%;
+                text-decoration: none;
+
+                svg {
+                    width: 1.6rem;
+                    height: 1.6rem;
+                    margin-right: 17px;
+
+                    path {
+                        fill: var(--dark-color);
+                    }
+                }
+
+                &:nth-child(3) {
+                    svg {
+                        transform: scale(1.15);
+                    }
+                }
+
+                &:nth-child(4) {
+                    .cls-1 {
+                        fill: none;
+                        stroke: var(--dark-color);
+                        stroke-miterlimit: 10;
+                        stroke-width: 2.2px;
+                    }
+                }
+            }
+        }
+    }
+
+    &:hover .dropdown-wrapper {
+        display: block;
+        position: absolute;
+        right: 100%;
+        bottom: 0;
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}

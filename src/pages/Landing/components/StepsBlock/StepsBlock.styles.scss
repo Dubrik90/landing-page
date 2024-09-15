@@ -1,0 +1,142 @@
+.steps-block {
+    width: 100%;
+    background-color: #e9fce6;
+    padding: 5.7rem 7.39583%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    .title {
+        width: 70%;
+        font-size: 3.8rem;
+        color: var(--tertiary-color);
+        font-weight: 600;
+        line-height: 4.461rem;
+        margin-bottom: 3.25rem;
+        z-index: 2;
+
+        @media (max-width: 1024px) {
+            width: 100%;
+            font-size: 2.5rem;
+            line-height: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+            margin-bottom: 2.5rem;
+        }
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        @media (max-width: 1024px) {
+            flex-direction: column;
+        }
+
+        .list {
+            width: 50%;
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1.8785rem;
+            color: var(--tertiary-color);
+            z-index: 2;
+
+            @media (max-width: 768px) {
+                font-size: 1.4rem;
+                line-height: 1.6rem;
+            }
+
+            @media (max-width: 1024px) {
+                width: 100%;
+                margin-bottom: 1.5rem;
+            }
+
+            .item {
+                margin-bottom: 0.4rem;
+                border-radius: 8px;
+                background-color: #f2f2f2;
+                padding: 0.7rem 5%;
+                width: 80%;
+                cursor: pointer;
+
+                @media (max-width: 1024px) {
+                    width: 100%;
+                }
+
+                &:hover {
+                    background-color: var(--primary-color);
+                }
+
+                &.selected {
+                    background-color: var(--primary-color);
+                }
+            }
+        }
+
+        .description {
+            width: 50%;
+            color: var(--tertiary-color);
+
+            @media (max-width: 1024px) {
+                width: 100%;
+                margin-top: 2.1rem;
+            }
+
+            h3 {
+                font-size: 2rem;
+                font-weight: 700;
+                line-height: 2.348rem;
+                margin-bottom: 1.1rem;
+
+                @media (max-width: 1024px) {
+                    font-weight: 600;
+                }
+
+                @media (max-width: 768px) {
+                    font-size: 1.6rem;
+                    line-height: 1.8rem;
+                }
+            }
+
+            p {
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 1.8785rem;
+
+                @media (max-width: 768px) {
+                    font-size: 1.3rem;
+                    line-height: 1.5rem;
+                }
+            }
+
+            .fade-enter {
+                opacity: 0;
+                transform: translateY(-6rem);
+            }
+
+            .fade-enter-active {
+                opacity: 1;
+                transform: translateY(0);
+                transition:
+                    opacity 500ms ease-in,
+                    transform 500ms ease-in;
+            }
+
+            .fade-exit {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            .fade-exit-active {
+                opacity: 0;
+                transform: translateY(6rem);
+                transition:
+                    opacity 500ms ease-out,
+                    transform 500ms ease-out;
+            }
+        }
+    }
+}
