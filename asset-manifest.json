@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing-page/static/css/main.93667687.css",
-    "main.js": "/landing-page/static/js/main.b89654eb.js",
+    "main.js": "/landing-page/static/js/main.ba2e43c8.js",
     "static/js/453.7ee4257d.chunk.js": "/landing-page/static/js/453.7ee4257d.chunk.js",
     "static/media/mi_logistic.png": "/landing-page/static/media/mi_logistic.0e1f53318e74ed7cc42c.png",
     "static/media/review1.png": "/landing-page/static/media/review1.f46bda634712d25c37a9.png",
@@ -46,11 +46,11 @@
     "static/media/next_arrow_green.svg": "/landing-page/static/media/next_arrow_green.1cdbfa05ab0725ada9aafaeb70d91e57.svg",
     "static/media/menu_open.svg": "/landing-page/static/media/menu_open.95cc94c3b220f07ca49450293a382a72.svg",
     "main.93667687.css.map": "/landing-page/static/css/main.93667687.css.map",
-    "main.b89654eb.js.map": "/landing-page/static/js/main.b89654eb.js.map",
+    "main.ba2e43c8.js.map": "/landing-page/static/js/main.ba2e43c8.js.map",
     "453.7ee4257d.chunk.js.map": "/landing-page/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93667687.css",
-    "static/js/main.b89654eb.js"
+    "static/js/main.ba2e43c8.js"
   ]
 }
