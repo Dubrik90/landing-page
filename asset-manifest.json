@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.deff520e.css",
-    "main.js": "/landing-page/static/js/main.afd53ace.js",
+    "main.css": "/landing-page/static/css/main.224fa149.css",
+    "main.js": "/landing-page/static/js/main.e501be2b.js",
     "static/js/453.7ee4257d.chunk.js": "/landing-page/static/js/453.7ee4257d.chunk.js",
     "static/media/mi_logistic.png": "/landing-page/static/media/mi_logistic.0e1f53318e74ed7cc42c.png",
     "static/media/review1.png": "/landing-page/static/media/review1.f46bda634712d25c37a9.png",
     "static/media/hunt_price.png": "/landing-page/static/media/hunt_price.0f515713bec116eab326.png",
+    "static/media/Mockup.png": "/landing-page/static/media/Mockup.c68459cf3764350f9ff2.png",
     "static/media/dinner2.png": "/landing-page/static/media/dinner2.c0da0f89facbfbc2b861.png",
     "static/media/food_tech.png": "/landing-page/static/media/food_tech.169143d4b134b568fd70.png",
     "static/media/baby_helper.png": "/landing-page/static/media/baby_helper.876aeabdedb936b0d48c.png",
@@ -15,7 +16,6 @@
     "static/media/review5.png": "/landing-page/static/media/review5.768569991b81ea0eb270.png",
     "static/media/client2.png": "/landing-page/static/media/client2.affaff31f4af95373873.png",
     "static/media/client5.png": "/landing-page/static/media/client5.808387f0735a63b49cea.png",
-    "static/media/phone.png": "/landing-page/static/media/phone.d44bbab8146913e45a94.png",
     "static/media/client4.png": "/landing-page/static/media/client4.d3f032e712ff2fde29fe.png",
     "static/media/apdateLogo.png": "/landing-page/static/media/apdateLogo.e96cc0261b8cabdb5513.png",
     "static/media/review_client1.png": "/landing-page/static/media/review_client1.0fc73e8ed8affdb94f67.png",
@@ -45,12 +45,12 @@
     "static/media/next_arrow.svg": "/landing-page/static/media/next_arrow.5db74f2e39f6ab97b2bf3500fcca9b49.svg",
     "static/media/next_arrow_green.svg": "/landing-page/static/media/next_arrow_green.1cdbfa05ab0725ada9aafaeb70d91e57.svg",
     "static/media/menu_open.svg": "/landing-page/static/media/menu_open.95cc94c3b220f07ca49450293a382a72.svg",
-    "main.deff520e.css.map": "/landing-page/static/css/main.deff520e.css.map",
-    "main.afd53ace.js.map": "/landing-page/static/js/main.afd53ace.js.map",
+    "main.224fa149.css.map": "/landing-page/static/css/main.224fa149.css.map",
+    "main.e501be2b.js.map": "/landing-page/static/js/main.e501be2b.js.map",
     "453.7ee4257d.chunk.js.map": "/landing-page/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.deff520e.css",
-    "static/js/main.afd53ace.js"
+    "static/css/main.224fa149.css",
+    "static/js/main.e501be2b.js"
   ]
 }
