@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.b4e28db3.css",
-    "main.js": "/landing-page/static/js/main.e501be2b.js",
+    "main.css": "/landing-page/static/css/main.3efe08a0.css",
+    "main.js": "/landing-page/static/js/main.8453dc4e.js",
     "static/js/453.7ee4257d.chunk.js": "/landing-page/static/js/453.7ee4257d.chunk.js",
+    "static/media/Mockup3.png": "/landing-page/static/media/Mockup3.372bfb84ea9d22e44cda.png",
     "static/media/mi_logistic.png": "/landing-page/static/media/mi_logistic.0e1f53318e74ed7cc42c.png",
     "static/media/review1.png": "/landing-page/static/media/review1.f46bda634712d25c37a9.png",
     "static/media/hunt_price.png": "/landing-page/static/media/hunt_price.0f515713bec116eab326.png",
-    "static/media/Mockup.png": "/landing-page/static/media/Mockup.c68459cf3764350f9ff2.png",
     "static/media/dinner2.png": "/landing-page/static/media/dinner2.c0da0f89facbfbc2b861.png",
     "static/media/food_tech.png": "/landing-page/static/media/food_tech.169143d4b134b568fd70.png",
     "static/media/baby_helper.png": "/landing-page/static/media/baby_helper.876aeabdedb936b0d48c.png",
@@ -45,12 +45,12 @@
     "static/media/next_arrow.svg": "/landing-page/static/media/next_arrow.5db74f2e39f6ab97b2bf3500fcca9b49.svg",
     "static/media/next_arrow_green.svg": "/landing-page/static/media/next_arrow_green.1cdbfa05ab0725ada9aafaeb70d91e57.svg",
     "static/media/menu_open.svg": "/landing-page/static/media/menu_open.95cc94c3b220f07ca49450293a382a72.svg",
-    "main.b4e28db3.css.map": "/landing-page/static/css/main.b4e28db3.css.map",
-    "main.e501be2b.js.map": "/landing-page/static/js/main.e501be2b.js.map",
+    "main.3efe08a0.css.map": "/landing-page/static/css/main.3efe08a0.css.map",
+    "main.8453dc4e.js.map": "/landing-page/static/js/main.8453dc4e.js.map",
     "453.7ee4257d.chunk.js.map": "/landing-page/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4e28db3.css",
-    "static/js/main.e501be2b.js"
+    "static/css/main.3efe08a0.css",
+    "static/js/main.8453dc4e.js"
   ]
 }
